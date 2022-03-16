@@ -1,0 +1,8 @@
+@import "../../index.scss";
+
+header {
+    background-color: $green-bg-color;
+    display:flex;
+    justify-content:center;
+    padding: 1.1em 0em;
+}
