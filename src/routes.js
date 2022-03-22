@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ErrorPage } from "./pages/404";
 import { Main } from "./pages/Main";
 import { Header } from './Components/Header';
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.min.css';
 
 export const Rotas = () => {
     return (
@@ -11,6 +13,7 @@ export const Rotas = () => {
                 <Route exact path="/" element={<Main />} />
                 <Route exact path="*" element={<ErrorPage />} />
             </Routes>
+            <ToastContainer />
         </BrowserRouter>
     )
 }

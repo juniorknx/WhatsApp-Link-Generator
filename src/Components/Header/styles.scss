@@ -5,4 +5,12 @@ header {
     display:flex;
     justify-content:center;
     padding: 1.1em 0em;
+    align-items: flex-end;
+
+    span {
+        font-family: 'Shadows Into Light', cursive;
+        color: #fff;
+        font-size: 1.1em;
+        margin-left:0.3em;
+    }
 }
