@@ -57,3 +57,14 @@ form {
         }
     }
 }
+
+@media(max-width:667px){
+    form {
+        width: 90%;
+    }
+
+    .generate__container {
+        display: flex;
+        justify-content: center;
+    }
+}

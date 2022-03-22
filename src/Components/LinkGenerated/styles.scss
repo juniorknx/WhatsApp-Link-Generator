@@ -66,3 +66,13 @@
         }
     }
 }
+
+@media(max-width:667px){
+    .generated__container .generated__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+}
