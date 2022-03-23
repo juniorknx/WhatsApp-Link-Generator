@@ -6,8 +6,8 @@ import { toast } from 'react-toastify';
 
 export function FormGenerator() {
 
-    const [number, setNumber] = useState(undefined);
-    const [text, setText] = useState();
+    const [number, setNumber] = useState('');
+    const [text, setText] = useState('');
     const [visible, setVisible] = useState(false);
 
    async function handleFormData(e) {
