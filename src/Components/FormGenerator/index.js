@@ -13,7 +13,7 @@ export function FormGenerator() {
    async function handleFormData(e) {
         e.preventDefault();
         if(number === ''){
-            toast.warn('Digite seu número!');
+            toast.error('Digite seu número!');
         }else{
             setVisible(true);
             toast.success('Link gerado com sucesso!');

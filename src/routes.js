@@ -13,7 +13,10 @@ export const Rotas = () => {
                 <Route exact path="/" element={<Main />} />
                 <Route exact path="*" element={<ErrorPage />} />
             </Routes>
-            <ToastContainer />
+            <ToastContainer
+            position="bottom-center"
+            autoClose={3000}
+            />
         </BrowserRouter>
     )
 }
