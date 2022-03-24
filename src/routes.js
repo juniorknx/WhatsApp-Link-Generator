@@ -4,6 +4,7 @@ import { Main } from "./pages/Main";
 import { Header } from './Components/Header';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.min.css';
+import { Footer } from "./Components/Footer";
 
 export const Rotas = () => {
     return (
@@ -17,6 +18,7 @@ export const Rotas = () => {
             position="bottom-center"
             autoClose={3000}
             />
+            <Footer />
         </BrowserRouter>
     )
 }
