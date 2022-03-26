@@ -8,11 +8,11 @@ export function Footer() {
             <div className="footer_container">
                 <div>
                     <a href="https://github.com/juniorknx" target="__blank">
-                        <FaGithub size={20} />
+                        <FaGithub size={24} />
                     </a>
 
                     <a href="https://www.linkedin.com/in/julio-junior-ba665015b/" target="__blank">
-                        <FaLinkedin size={20} />
+                        <FaLinkedin size={24} />
                     </a>
                 </div>
 
