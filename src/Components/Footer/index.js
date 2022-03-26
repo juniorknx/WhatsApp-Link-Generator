@@ -1,9 +1,27 @@
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 import './styles.scss';
 
 export function Footer() {
     return (
         <footer>
-            <h2>This is the footer</h2>
+            <div className="footer_container">
+                <div>
+                    <a href="https://github.com/juniorknx" target="__blank">
+                        <FaGithub size={20} />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/julio-junior-ba665015b/" target="__blank">
+                        <FaLinkedin size={20} />
+                    </a>
+                </div>
+
+                <div>
+                    <span>
+                        {(new Date().getFullYear())} © Link Generator
+                    </span>
+                </div>
+            </div>
         </footer>
     )
 }
