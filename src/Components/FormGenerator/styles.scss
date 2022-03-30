@@ -61,6 +61,10 @@ form {
 @media(max-width:667px){
     form {
         width: 90%;
+        
+        input {
+            padding: 1.4em 3.4em;
+        }
     }
 
     .generate__container {
