@@ -13,6 +13,7 @@ export function Main(){
                 autoplay:true,
                 loop:true,
             }}
+            speed={2}
             />
         </div>
         </>
